@@ -10,6 +10,9 @@ Vagrant::Config.run do |config|
     config_php54.vm.host_name = "php54"
     config_php54.vm.forward_port 80, 8054
 
+    # Change group ownership and add write permissions for group
+    config_php54.vm.share_folder("v-root", "/vagrant", ".", :group => "www-data", :extra => "dmode=775,fmode=764")
+
     config_php54.vm.provision :chef_solo do |chef|
       chef.cookbooks_path = "chef/cookbooks"
       chef.roles_path = "chef/roles"
@@ -24,6 +27,9 @@ Vagrant::Config.run do |config|
   
     config_php55.vm.host_name = "php55"
     config_php55.vm.forward_port 80, 8055
+
+    # Change group ownership and add write permissions for group
+    config_php55.vm.share_folder("v-root", "/vagrant", ".", :group => "www-data", :extra => "dmode=775,fmode=764")
 
     config_php55.vm.provision :chef_solo do |chef|
       chef.cookbooks_path = "chef/cookbooks"
