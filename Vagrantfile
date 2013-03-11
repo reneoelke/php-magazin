@@ -4,8 +4,8 @@
 Vagrant::Config.run do |config|
   # VM for PHP 5.4
   config.vm.define :php54 do |config_php54|
-    config_php54.vm.box = "precise64"
-    config_php54.vm.box_url = "http://files.vagrantup.com/precise64.box"
+    config_php54.vm.box = "lucid32"
+    config_php54.vm.box_url = "http://files.vagrantup.com/lucid32.box"
 
     config_php54.vm.host_name = "php54"
     config_php54.vm.forward_port 80, 8054
@@ -19,8 +19,8 @@ Vagrant::Config.run do |config|
 
   # VM for PHP 5.5
   config.vm.define :php55 do |config_php55|
-    config_php55.vm.box = "precise64"
-    config_php55.vm.box_url = "http://files.vagrantup.com/precise64.box"
+    config_php55.vm.box = "lucid32"
+    config_php55.vm.box_url = "http://files.vagrantup.com/lucid32.box"
   
     config_php55.vm.host_name = "php55"
     config_php55.vm.forward_port 80, 8055
