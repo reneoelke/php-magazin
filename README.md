@@ -22,7 +22,7 @@ vagrant up
 
 # Test
 
-Öffenet man im Browser folgende URLs, erscheint eine PHPInfo-Seite mit den Details zur installierten PHP-Runtime:
+Öffenet man im Browser folgende URLs, erscheint der Inhalt einer Log-Datei:
 
 - PHP 5.4: [http://localhost:8054](http://localhost:8054)
 - PHP 5.5: [http://localhost:8055](http://localhost:8055)
