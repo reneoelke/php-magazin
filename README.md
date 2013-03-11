@@ -14,25 +14,25 @@ Es werden 2 virtuelle Maschinen gestartet, eine mit PHP 5.4 (`php54`) und eine m
 
 Nachdem das Git Repository geklont wurde (inkl. Submodule), welchselt man in das Projekt-Verzeichnis und startet die virtuelle Umgebung:
 
-	```bash
-	git clone --recursive git://github.com/foobugs/php-magazin.git php-magazin
-	cd php-magazin
-	vagrant up
-	```
+```bash
+git clone --recursive git://github.com/foobugs/php-magazin.git php-magazin
+cd php-magazin
+vagrant up
+```
 
 # Test
 
 Öffenet man im Browser folgende URLs, erscheint eine PHPInfo-Seite mit den Details zur installierten PHP-Runtime:
 
-	- PHP 5.4: [http://localhost:8054](http://localhost:8054)
-	- PHP 5.5: [http://localhost:8055](http://localhost:8055)
+- PHP 5.4: [http://localhost:8054](http://localhost:8054)
+- PHP 5.5: [http://localhost:8055](http://localhost:8055)
 
 # Deinstallation
 
 Um das Projekt zu deinstallieren, muss man lediglich die virtuelle Umgebung und ggf. das Projekt-Verzeichnis löschen:
 
-	```bash
-	vagrant destroy
-	cd ..
-	rm -rf php-magazin
-	```
+```bash
+vagrant destroy
+cd ..
+rm -rf php-magazin
+```
