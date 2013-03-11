@@ -1,0 +1,27 @@
+[submodule "chef/cookbooks/apt"]
+	path = chef/cookbooks/apt
+	url = git://github.com/opscode-cookbooks/apt.git
+[submodule "chef/cookbooks/build-essential"]
+	path = chef/cookbooks/build-essential
+	url = git://github.com/opscode-cookbooks/build-essential.git
+[submodule "chef/cookbooks/git"]
+	path = chef/cookbooks/git
+	url = git://github.com/opscode-cookbooks/git.git
+[submodule "chef/cookbooks/mysql"]
+	path = chef/cookbooks/mysql
+	url = git://github.com/opscode-cookbooks/mysql.git
+[submodule "chef/cookbooks/postgresql"]
+	path = chef/cookbooks/postgresql
+	url = git://github.com/opscode-cookbooks/postgresql.git
+[submodule "chef/cookbooks/xml"]
+	path = chef/cookbooks/xml
+	url = git://github.com/opscode-cookbooks/xml.git
+[submodule "chef/cookbooks/php"]
+	path = chef/cookbooks/php
+	url = git://github.com/foobugs/php-cookbook.git
+[submodule "chef/cookbooks/nginx"]
+	path = chef/cookbooks/nginx
+	url = git://github.com/opscode-cookbooks/nginx.git
+[submodule "chef/cookbooks/ohai"]
+	path = chef/cookbooks/ohai
+	url = git://github.com/opscode-cookbooks/ohai.git
