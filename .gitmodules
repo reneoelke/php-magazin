@@ -18,7 +18,7 @@
 	url = git://github.com/opscode-cookbooks/xml.git
 [submodule "chef/cookbooks/php"]
 	path = chef/cookbooks/php
-	url = git://github.com/foobugs/php-cookbook.git
+	url = https://github.com/foobugs-cookbooks/php.git
 [submodule "chef/cookbooks/nginx"]
 	path = chef/cookbooks/nginx
 	url = git://github.com/opscode-cookbooks/nginx.git
